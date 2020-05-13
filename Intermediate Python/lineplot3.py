@@ -1,12 +1,12 @@
 # Print the last item from year and pop
-print(year[-1])
-print(pop[-1])
+print(life_exp[-1])
+print(gdp_cap[-1])
 
 # Import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
 # Make a line plot: year on the x-axis, pop on the y-axis
-plt.plot(year,pop)
+plt.plot(gdp_cap,life_exp)
 
 # Display the plot with plt.show()
 plt.show()
