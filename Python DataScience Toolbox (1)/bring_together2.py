@@ -6,6 +6,7 @@ def count_entries(df, col_name='lang'):
     # Initialize an empty dictionary: cols_count
     cols_count = {}
 
+    
     # Add try block
     try:
         # Extract column from DataFrame: col
